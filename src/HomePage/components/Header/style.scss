@@ -1,0 +1,20 @@
+@import '../../../Common/eagle-theme.scss';
+
+#banner {
+  height: 600px;
+  background: url('../../../assets/images/banner.jpg') center -100px fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+
+  >.logo {
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 12rem;
+  }
+
+  @media screen and ($desktop) {
+    height: 800px;
+  }
+}

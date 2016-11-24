@@ -1,0 +1,29 @@
+@import '../../../Common/eagle-theme.scss';
+
+#features {
+  background-color: $neutral-dark-brown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .feature {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+
+    .feature-image {
+      margin-left: 2rem;
+
+      &> img {
+        border-radius: 50%;
+        width: 7rem;
+        height: 7rem;
+      }
+    }
+
+    .feature-detail {
+      margin-left: 2rem;
+      padding-right: 1rem;
+    }
+  }
+}

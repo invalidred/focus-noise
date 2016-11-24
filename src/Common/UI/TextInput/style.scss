@@ -1,0 +1,30 @@
+@import '../../eagle-theme.scss';
+
+.text-input {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 2rem;
+  &> label {
+    align-self: stretch;
+    padding-right: .4rem;
+    box-sizing: border-box;
+    background-color: $neutral-off-white;
+    color: $neutral-dark-brown;
+    flex-basis: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: none;
+  }
+  &> input {
+    align-self: stretch;
+    display: flex;
+    flex-basis: 70%;
+    border-radius: 0 .6rem .6rem 0;
+    padding-left: .5rem;
+    box-sizing: border-box;
+    border: none;
+    color: $accent-dark-yellow;
+  }
+}

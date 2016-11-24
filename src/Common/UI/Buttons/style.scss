@@ -1,0 +1,35 @@
+@import '../../eagle-theme.scss';
+
+.button {
+  border: none;
+  border-radius: .3rem;
+  width: 100%;
+  min-height: 2.5rem;
+  color: $neutral-white;
+  background-color: $accent-light-yellow;
+
+  &:hover {
+    background-color: $accent-dark-yellow;
+  }
+
+  &:active {
+    background-color: $accent-dark-yellow;
+    color: $neutral-dark-brown;
+  }
+}
+
+.social-button {
+  display: flex;
+  align-content: stretch;
+  align-items: center;
+  div.social-letter {
+    font-weight: bolder;
+    flex-basis: 20%;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  div.social-name {
+    flex-basis: 80%;
+  }
+}
