@@ -5,7 +5,7 @@ const prodConfig = Object.assign({}, baseConfig, {
   output: {
     path: 'dist/',
     filename: 'app.bundle.js',
-    publicPath: 'focus-noise/'
+    publicPath: '/'
   },
   devtool: 'source-map',
   plugins: baseConfig.plugins.concat([
