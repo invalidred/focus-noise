@@ -9,7 +9,7 @@ export default class Feature extends Component {
       <div className="feature">
         <div className="feature-image">
           <img
-            src={`/src/assets/images/${image}`}
+            src={image}
             alt={`${name} image`}
           />
         </div>

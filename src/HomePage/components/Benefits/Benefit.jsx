@@ -8,7 +8,7 @@ export default class Benefit extends Component {
     return (
       <div className="benefit">
         <img
-          src={`/src/assets/images/${image}`}
+          src={image}
           alt={`${name} image`}
         />
         <SecondaryHeader text={name} />

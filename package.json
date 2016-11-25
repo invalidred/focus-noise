@@ -4,7 +4,8 @@
   "description": "Pomodoro Timer Meets White Noise",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack/base.config.js --hot --inline"
+    "start": "webpack-dev-server --config ./webpack/base.config.js --hot --inline",
+    "prod": "webpack -p --config ./webpack/prod.config.js"
   },
   "keywords": [
     "react",

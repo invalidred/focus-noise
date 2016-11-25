@@ -10,22 +10,22 @@ import Benefit from './benefit';
 const benefits = [
   {
     name: 'Boost Productivity',
-    image: 'productivity.jpg',
+    image: require('../../../../static/images/productivity.jpg'),
     content: 'Since you go in with a mindset of gettting the work done, looking at the clock will help you boost productivity.'
   },
   {
     name: 'Avoid Distractions',
-    image: 'distractions.jpg',
+    image: require('../../../../static/images/distractions.jpg'),
     content: 'Since you go in with a mindset of gettting the work done, looking at the clock will help you boost productivity.'
   },
   {
     name: 'Enhance Focus',
-    image: 'focus.jpg',
+    image: require('../../../../static/images/focus.jpg'),
     content: 'The combination of avoiding environmental distraction and paying attention to your work enhances focus'
   },
   {
     name: 'Work Life Balance',
-    image: 'balance.jpg',
+    image: require('../../../../static/images/balance.jpg'),
     content: 'Since you go in with a mindset of gettting the work done, looking at the clock will help you boost productivity.'
   }
 ];

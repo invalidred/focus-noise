@@ -2,6 +2,11 @@ var webpack = require('webpack');
 var baseConfig = require('./base.config.js');
 
 const prodConfig = Object.assign({}, baseConfig, {
+  output: {
+    path: 'dist/',
+    filename: 'app.bundle.js',
+    publicPath: '/'
+  },
   devtool: 'source-map',
   plugins: baseConfig.plugins.concat([
     new webpack.optimize.OccurenceOrderPlugin(),
