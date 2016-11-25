@@ -3,7 +3,7 @@ var baseConfig = require('./base.config.js');
 
 const prodConfig = Object.assign({}, baseConfig, {
   output: {
-    path: 'dist/',
+    path: 'dist',
     filename: 'app.bundle.js',
     publicPath: '/focus-noise/'
   },
